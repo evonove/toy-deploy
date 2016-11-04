@@ -1,0 +1,5 @@
+site_name: toy-deploy Docs
+theme: readthedocs
+pages:
+  - Home: index.md
+  - Deployment: deployment.md

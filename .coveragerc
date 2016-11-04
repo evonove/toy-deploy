@@ -1,0 +1,8 @@
+[run]
+source = django-toy
+omit =
+    */migrations/*
+    */tests/*
+    django-toy/manage.py
+    django-toy/toy/wsgi.py
+    django-toy/toy/settings/production.py
