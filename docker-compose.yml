@@ -15,13 +15,3 @@ services:
     extends:
       file: ./containers/base.yml
       service: django
-
-  docs:
-    extends:
-      file: ./containers/base.yml
-      service: docs
-
-  mailhog:
-    extends:
-      file: ./containers/base.yml
-      service: mailhog
