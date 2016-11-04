@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Toy deploy</title>
+  </head>
+  <body>
+    <h1>Events</h1>
+    <ul>
+      {% for event in object_list %}
+      <li><h2>{{ event.name }}:</h2><p>{{ event.description }}</p></li>
+      {% empty %}
+        <li>No events yet</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

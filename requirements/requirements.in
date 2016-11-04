@@ -6,6 +6,7 @@ dj-database-url
 whitenoise
 psycopg2
 pytz
+Pillow
 
 # application server
 uwsgi
